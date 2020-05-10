@@ -473,6 +473,9 @@ void Map::updateCameraPosition(const CameraUpdate& _update, float _duration, Eas
 
     if (_duration == 0.f) {
         setCameraPosition(camera);
+        if (impl->cameraAnimationListener) {
+            impl->cameraAnimationListener(true);
+        }
     } else {
         setCameraPositionEased(camera, _duration, _e);
     }
