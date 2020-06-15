@@ -15,6 +15,7 @@
 		C94F53B123CA610500E03E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94F53AF23CA610500E03E9C /* LaunchScreen.storyboard */; };
 		C94F53BA23CA613900E03E9C /* TangramMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F53B923CA613900E03E9C /* TangramMap.framework */; };
 		C94F53BB23CA613900E03E9C /* TangramMap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94F53B923CA613900E03E9C /* TangramMap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9B0518224975296004B0765 /* location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B0518124975296004B0765 /* location_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		C94F53B223CA610500E03E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94F53B923CA613900E03E9C /* TangramMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TangramMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94F53BD23CBE40000E03E9C /* Local.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Local.xcconfig; sourceTree = "<group>"; };
+		C9B0518124975296004B0765 /* location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				C94F53AD23CA610500E03E9C /* Assets.xcassets */,
 				C94F53AF23CA610500E03E9C /* LaunchScreen.storyboard */,
 				C94F53B223CA610500E03E9C /* Info.plist */,
+				C9B0518124975296004B0765 /* location_icon.png */,
 			);
 			path = TangramDemoSwift;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94F53B123CA610500E03E9C /* LaunchScreen.storyboard in Resources */,
+				C9B0518224975296004B0765 /* location_icon.png in Resources */,
 				C94F53AE23CA610500E03E9C /* Assets.xcassets in Resources */,
 				C94F53AC23CA610400E03E9C /* Main.storyboard in Resources */,
 			);

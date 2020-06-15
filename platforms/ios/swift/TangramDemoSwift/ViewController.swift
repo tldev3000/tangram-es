@@ -40,5 +40,10 @@ class ViewController: UIViewController, TGMapViewDelegate, TGRecognizerDelegate 
         let newYork = CLLocationCoordinate2DMake(40.70532700869127, -74.00976419448854)
 
         mapView.cameraPosition = TGCameraPosition(center: newYork, zoom: 15, bearing: 0, pitch: 0)
+
+        let marker = mapView.markerAdd()
+        marker.stylingString = "{ style: 'ux-location-gem-overlay', color: 'white', size: [35px, 35px], order: 10000, priority: 1, collide: false }"
+        marker.icon = UIImage(named: "location_icon")!
+        marker.point = newYork
     }
 }
